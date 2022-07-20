@@ -33,7 +33,16 @@
       <div class="details">
         <div class="detail">
           <h1>Spending - Last 7 days</h1>
-          <div class="chart"></div>
+          <canvas class="chart"></canvas>
+          <div class="week-name">
+            <p class="week-day">mon</p>
+            <p class="week-day">tue</p>
+            <p class="week-day">wed</p>
+            <p class="week-day">thu</p>
+            <p class="week-day">fri</p>
+            <p class="week-day">sat</p>
+            <p class="week-day">sun</p>
+          </div>
         </div>
 
         <div class="totals">
@@ -48,7 +57,6 @@
         </div>
       </div>
     </main>
-    mon tue wed thu fri sat sun
 
     <footer class="attribution">
       Challenge by
@@ -57,6 +65,10 @@
       >. Coded by
       <a href="https://github.com/ponhuang/expenses-chart">Pon Huang</a>.
     </footer>
-    <script src="index.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/chart.js@3.8.0/dist/chart.min.js"
+    ></script>
+    <script type="text/javascript" src="index.js"></script>
   </body>
 </html>
